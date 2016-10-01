@@ -14,7 +14,7 @@ if you have some issue when npm install please check the node and npm version fi
  
  # how to run test
  
- ```npm run test``
+ ```npm run test```
  
  # how to build the prod
  
