@@ -4,6 +4,8 @@ export default ngModule => {
     require('./ac-hello.test')(ngModule);
   }
 
+  console.log('new');
+
   ngModule.directive('acHello', function($log) {
     require('./ac-hello.styl');
     return {

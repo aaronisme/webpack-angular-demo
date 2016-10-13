@@ -14,6 +14,10 @@ var config = {
     })
   ],
 
+  watchOptions: {
+    poll: true
+  },
+  
   module: {
     loaders: [
       {test: /\.js$/, loader: 'ng-annotate!babel', exclude: /node_modules/},
